@@ -1,5 +1,6 @@
 import { Navbar } from "../component/Navbar";
 import { ThemeToggle } from "../component/ThemeToggle";
+import { StarBackground } from "../component/StarBackground";
 
 export const Home = () => {
     return(
@@ -7,7 +8,7 @@ export const Home = () => {
             {/* Disini untuk Theme toggle dl (dark or white) */}
             <ThemeToggle />
             {/* Disini untuk Background Effect (misal yang meteor itu) */}
-
+            <StarBackground />
             {/* Navbar */}
             <Navbar/>
             {/* Konten Utama (liat dari component) */}
