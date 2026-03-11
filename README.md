@@ -1,16 +1,46 @@
-# React + Vite
+# Portfolio Website with React & TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+##  Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React** – Component-based UI development
+* **Vite** – Lightning-fast build tool
+* **TailwindCSS** – Utility-first CSS for styling
+* **Lucide Icons** – Clean and beautiful icon pack
+* **Radix UI** – Accessible component primitives
+* **GitHub & Vercel** – Deployment
 
-## React Compiler
+## ⚡️ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🌑 **Light/Dark Mode Toggle**
+  Save theme preference in local storage with beautiful transitions
 
-## Expanding the ESLint configuration
+* 💫 **Animated Backgrounds**
+  Stars, meteors, scroll effects, and glowing UI elements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📱 **Responsive Navigation**
+  Desktop and mobile menus with glassmorphism
+
+* 👨‍💻 **Hero & About Sections**
+  Showcase who you are with smooth intro animations and buttons
+
+* 📊 **Skills Grid**
+  Filterable progress bars and categories with animated width
+
+* 🖼️ **Projects Showcase**
+  Display screenshots, tech stacks, and GitHub/demo links
+
+* 📩 **Contact Section**
+  Social icons + responsive contact form with toast notifications
+
+## Quick Start
+
+```bash
+git clone https://github.com/DarrenCasper/PortFolio.git
+cd PortFolio
+npm install
+npm run dev
+```
+Your app will be available at: [http://localhost:5173](http://localhost:5173)
+
+```
